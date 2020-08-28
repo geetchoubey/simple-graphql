@@ -1,0 +1,4 @@
+type Query {
+    users(query: String): [User!]!
+    posts(query: String, isActive: Boolean): [Post!]!
+}

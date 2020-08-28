@@ -1,0 +1,4 @@
+type Subscription {
+    comment(postId: ID!): Comment!
+    post: PostSubscriptionPayload!
+}
